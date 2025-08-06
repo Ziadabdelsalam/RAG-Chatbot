@@ -282,7 +282,8 @@ def create_interface():
             return demo
         
         gr.Markdown("# 🤖 LangChain RAG Chatbot")
-        gr.Markdown("*Powered by LangChain, OpenAI GPT-4o-mini, and ChromaDB*")
+        gr.Markdown("*Powered by LangChain, OpenAI GPT-4o-mini, ChromaDB and Gradio*")
+        gr.Markdown("*By Ziad Ahmed*")
         
         with gr.Tab("💬 Chat"):
             chatbot_ui = gr.Chatbot(label="Conversation", height=500)
