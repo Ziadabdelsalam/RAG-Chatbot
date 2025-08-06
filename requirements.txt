@@ -1,0 +1,24 @@
+# Core dependencies
+pydantic==2.5.3
+fastapi==0.104.1
+starlette==0.27.0
+uvicorn==0.24.0
+gradio==4.8.0
+
+# LangChain dependencies - let pip resolve
+langchain
+langchain-openai
+langchain-community
+langchain-core
+
+# RAG dependencies
+chromadb==0.4.15
+python-dotenv==1.0.0
+PyPDF2==3.0.1
+
+# Supporting libraries
+urllib3==1.26.18
+numpy>=1.21.0,<2.0.0
+typing-extensions>=4.8.0
+requests>=2.31.0
+tiktoken>=0.5.0
